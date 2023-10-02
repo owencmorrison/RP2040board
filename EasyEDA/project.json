@@ -1,0 +1,1367 @@
+{
+  "schematics": {
+    "0e70015f78ed49ca8f1458dc8ce63022": {
+      "name": "rp2040cloneboard",
+      "sheets": [
+        {
+          "name": "RP2040",
+          "id": 1,
+          "uuid": "50a5e7a7795249b28876fd8ae17b8fd8"
+        },
+        {
+          "name": "Connectors",
+          "id": 2,
+          "uuid": "0c6f25ee002d4431b1f218588de4a673"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "f4dac1bcc2c14e68a62fbc35c23eb1da": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "b77c6f33c34143f789e3a05b95f1930f": {
+      "source": "2924fbcaaec048e389651912b4384f34|74c3fce35b813c4911be37f54b2e2b00acbb7a996385fbfaf43b3fa5921636c6",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "Sheet-Symbol_A4",
+      "version": "1656925871",
+      "type": 20
+    },
+    "35facfdabedf4a85b2f369be4df8d128": {
+      "source": "858058c3ba8a477d9097f33bf3998c91|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Single Chip Microcomputer/Microcontroller\",\"Microcontroller Units (MCUs/MPUs/SOCs)\"]",
+      "title": "RP2040",
+      "version": "1675923954",
+      "type": 2
+    },
+    "50a5e7a7795249b28876fd8ae17b8fd8_0": {
+      "source": "b77c6f33c34143f789e3a05b95f1930f|74c3fce35b813c4911be37f54b2e2b00acbb7a996385fbfaf43b3fa5921636c6",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "Sheet-Symbol_A4",
+      "version": "1656925871",
+      "type": 20,
+      "uuid": "50a5e7a7795249b28876fd8ae17b8fd8_0"
+    },
+    "74ebfb2dc70a40e0aab361f23dc0e7c0": {
+      "source": "e30d694d838e433dbe5423a6e817759e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\",\"USB Connectors\"]",
+      "title": "TYPE-C-31-M-12",
+      "version": "1673190308",
+      "type": 2
+    },
+    "e389b9f183324e6782ad1754f8569e86": {
+      "source": "e2326c209e5c4753ac41a9a80a77850b|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Power Supply Chip\",\"Linear Voltage Regulators (LDO)\"]",
+      "title": "AMS1117-3.3_C2992570",
+      "version": "1673000407",
+      "type": 2
+    },
+    "f0d9a0d556784a1b84cc2f3434cbd804": {
+      "source": "14e7c87315d34abb965362cbece7c128|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "RC0402FR-075K1L",
+      "version": "1672512605",
+      "type": 2
+    },
+    "714a475e4b5c488ea505753912975f02": {
+      "source": "bab23fa434804523a3cad979044132df|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "10uF (106) ±20% 6.3V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "CL05A106MQ5NUNC",
+      "version": "1672209004",
+      "type": 2
+    },
+    "a2569eeeac684f82a88556c66ef9737a": {
+      "source": "a4f4c42cbd384d35a5d6c6cf6bffb3c6|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-5V",
+      "version": "1664349332",
+      "type": 18
+    },
+    "68c69b8a877e4ee08ffbf4490d54c26f": {
+      "source": "b4fc5614febe4d0c966db51b22af788e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-VCC",
+      "version": "1649575514",
+      "type": 18
+    },
+    "e5ae14b7370448c2a3b91a1e1470c72a": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "5c7a809d912348c4ae46ad3b8b236444": {
+      "source": "821d49a7b4fb4395aa7ad1f13c591fed|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "5.1KΩ (5101) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0402WGF5101TCE",
+      "version": "1672254603",
+      "type": 2
+    },
+    "b5995e4c94cf4a42b01079b021ee1b62": {
+      "source": "d7cd8fe8aa9c4c26a1a93effbf3073d8|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Memory\",\"NOR FLASH\"]",
+      "title": "W25Q128JVSIQTR",
+      "version": "1672473603",
+      "type": 2
+    },
+    "235dd551dd8d4792b3d6073dc5c33e88": {
+      "source": "a3d88ca62431406e88e98f68ad8f0ac0|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "YSO751SR 125MHZ 3.3V 20PPM",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Crystal Oscillator/Oscillator/Resonator\",\"Oscillators\"]",
+      "title": "O7050125MEDA4SC",
+      "version": "1669430318",
+      "type": 2
+    },
+    "3d57cb300da443b6936dbe72d0d9bb39": {
+      "source": "8769aaa75e8b95a4bcfb3cd1f2239524|95d8b80acd6cc826c8858fe20c11015e53c019b26738c3c499cc1cf9b094c912",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "12MHz",
+      "version": "7eadc07d178c23647c0e933f6fe65838",
+      "type": 2
+    },
+    "3bdb54f845234be2b916e6693406d279": {
+      "source": "b6f218a057324e66b9c02755f6ed1d39|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "27KΩ (2702) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0402WGF2702TCE",
+      "version": "1672253704",
+      "type": 2
+    },
+    "62f54d7f04a243f1b0009f02b3349d36": {
+      "source": "84255c7b29ea44758ff82ae79462ade1|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "30pF (300) ±5% 50V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "0402CG300J500NT",
+      "version": "1673153711",
+      "type": 2
+    },
+    "b1123e8d01094773bf393423f466f537": {
+      "source": "ba2c4348ba7241bd99a54111a889d74b|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "1uF (105) ±10% 25V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "CL05A105KA5NQNC",
+      "version": "1672354202",
+      "type": 2
+    },
+    "11b042507a9141f28fd7e50ef2de6b65": {
+      "source": "836d64af04f34cafabe254ac8e948e20|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100nF (104) ±10% 16V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "CL05B104KO5NNNC",
+      "version": "1673153707",
+      "type": 2
+    },
+    "28dd023ac22741dc8f98d5247c2233b9": {
+      "source": "ae0cf28d2b69473db4d292ae6d5bceb9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "1KΩ (1001) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0402WGF1001TCE",
+      "version": "1672193703",
+      "type": 2
+    },
+    "e4c569ac8d6240cd81f06dfe482a8351": {
+      "source": "b0eea3edcc7347ef9cf8b9434f216617|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "330Ω (3300) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0402WGF3300TCE",
+      "version": "1672248604",
+      "type": 2
+    },
+    "d09200e3129d4b6abb56d995add53858": {
+      "source": "ba6d505873da4c1a8aab2fd61de02103|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "0603",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optocoupler/LED/Digital Tube/Photoelectric Device\",\"Light Emitting Diodes (LED)\"]",
+      "title": "19-217/GHC-YR1S2/3T",
+      "version": "1673061883",
+      "type": 2
+    },
+    "494b48cfc3164be2a63c7d8cb7e878dc": {
+      "source": "49fadfc6e4e3470797c0ab1a98d3bec7|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Key/Switch\",\"Tactile Switches\"]",
+      "title": "TS-1187A-B-A-B",
+      "version": "1673145018",
+      "type": 2
+    },
+    "abf41c85e16f4054a2938d9447a356fa": {
+      "source": "d7167df5d22a46e28284509dedfad680|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Netport-IN",
+      "version": "1649575449",
+      "type": 19
+    },
+    "d8642cf864fe413c97785454cf302d87": {
+      "source": "c6b1ab04400e4a3ba11c2d06dce88c49|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "27Ω (27R0) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0603WAF270JT5E",
+      "version": "1672249504",
+      "type": 2
+    },
+    "eab66376e9d748ac81c18985e34926a8": {
+      "source": "8ea258ba25c64462be491552cf1f3086|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Res",
+      "version": "1655970693",
+      "type": 2
+    },
+    "871d3ae587264874bed2f8f645699b33": {
+      "source": "8ea258ba25c64462be491552cf1f3086|74c3fce35b813c4911be37f54b2e2b00acbb7a996385fbfaf43b3fa5921636c6",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Res",
+      "version": "1655970693",
+      "type": 2
+    },
+    "1369d44080a34ab6a9d06c8340dcf5fe": {
+      "source": "8769aaa75e8b95a4bcfb3cd1f2239524|259ca779b8fbcf3df1baad030035b20d5f392b3fe690708c0d1e6b3aeedb6d01",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "12MHz",
+      "version": "7eadc07d178c23647c0e933f6fe65838",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "901f7e341b304e379a20f0244beea452": {
+      "title": "LQFN-56_L7.0-W7.0-P0.4-EP",
+      "source": "16f9130973514962a4b3906ef278c1f3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657764276",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LQFN-56\"]"
+    },
+    "a1692aff22f74fb49e0219c8a8f5c398": {
+      "title": "USB-C_SMD-TYPE-C-31-M-12",
+      "source": "41e476cc99c64a77839a1ca101818a35|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665806386",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"USB-C\"]"
+    },
+    "9c1778cb08454003bd72b2c9b0296145": {
+      "title": "SOT-223-3_L6.4-W3.5-P2.30-LS7.0-BR",
+      "source": "b0a9b19beff847d9af71fea21d03103f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649433482",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-223-3\"]"
+    },
+    "32f8a69a163e4935b927f0c88cfb5691": {
+      "title": "R0402",
+      "source": "b43f879bdccf4af3bada432fe602c7c6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1670641509",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "91a38cc4e68d4a51be348ff39a18b318": {
+      "title": "C0402",
+      "source": "6fbbb009724a4aee93b46abcd7ad26b6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651210464",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "2268733b0271402d8efd83d3994ce5c2": {
+      "title": "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+      "source": "72583753d3274002a417cc5a35a8cf6f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652421484",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOIC-8\"]"
+    },
+    "1a46e211f5a94b0d9f7f8319bf19b8d4": {
+      "title": "OSC-SMD_4P-L7.0-W5.0-BL",
+      "source": "746d7c0210864082813c226885beae2f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652410854",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"OSC-SMD\"]"
+    },
+    "6892d3583fe242ea9148d5120571e59e": {
+      "title": "C0402_NEW",
+      "source": "1b0c96428abd45948f9475ecf7450067|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651210972",
+      "type": 4,
+      "desc": "用于ERP测试封装",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"C0402\"]"
+    },
+    "b286747c21f945388789b04fb0569f21": {
+      "title": "LED0603-R-RD",
+      "source": "bd99e3a1960e47858c71f4fe92da16d4|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1650953510",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED-SMD\"]"
+    },
+    "422d6f654c734353b1c60893f9f6aa04": {
+      "title": "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2",
+      "source": "efc5f3740ea74b89b90dfb01a1bf49c8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1662113828",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SW-SMD\"]"
+    },
+    "c9127e59e4c7496a8b0e9a524e3bf9ee": {
+      "title": "R0603",
+      "source": "b44c1b381d26462586b8a8d9fac22ec8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1676254243",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "48726249d224467b9568e35a8a7319b7": {
+      "title": "R0402",
+      "source": "b43f879bdccf4af3bada432fe602c7c6|74c3fce35b813c4911be37f54b2e2b00acbb7a996385fbfaf43b3fa5921636c6",
+      "version": "1670641509",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "bd1b3a793cb74b8993944cba12c24200": {
+      "title": "OSC-SMD_4P-L7.0-W5.0-BL",
+      "source": "f36faf8ee26dcaff36cb14b15bb5e9d7|259ca779b8fbcf3df1baad030035b20d5f392b3fe690708c0d1e6b3aeedb6d01",
+      "version": "2c2a69e82f7e74428f9325752e53a4b5",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    }
+  },
+  "devices": {
+    "1f82a320f9d84eb0bcddef4f9630e444": {
+      "title": "Sheet-Symbol_A4",
+      "attributes": {
+        "Symbol": "b77c6f33c34143f789e3a05b95f1930f",
+        "Company": "EasyEDA.com",
+        "Drawed": "EasyEDA Pro",
+        "Reviewed": "EasyEDA Pro",
+        "Version": "V0.1",
+        "Page Size": "A4",
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "Part Number": "JLCPCB-002",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "5350f3eb55bb4053a33f1326ce27e859|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649580843",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "fe89441148494375b58c4d40687c867a": {
+      "title": "RP2040_C2040",
+      "attributes": {
+        "LCSC Part Name": "ARM Cortex-M0 133MHz RAM：264KB",
+        "Supplier Part": "C2040",
+        "Manufacturer": "Raspberry Pi(树莓派)",
+        "Manufacturer Part": "RP2040",
+        "Supplier Footprint": "QFN-56(7x7)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210621/C2040_96F425825606B7957D87DD32E2512CA9.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "35facfdabedf4a85b2f369be4df8d128",
+        "Designator": "U?",
+        "Footprint": "901f7e341b304e379a20f0244beea452",
+        "3D Model": "52a5bd97ade4421ca7c85eb2c0733466",
+        "3D Model Title": "LQFN-56_L7.0-W7.0-P0.4-EP",
+        "3D Model Transform": "276.377,276.377,0,0,0,0,0,0,0",
+        "CPU Core": "ARM Cortex-M0",
+        "Maximum Frequency": "133MHz",
+        "Supply Voltage Range": "-",
+        "Internal Oscillator": "-",
+        "External Clock Frequency Rang": "-",
+        "Program FLASH Size": "-",
+        "RAM Size": "264KB",
+        "EEPROM/Data FLASH Size": "-",
+        "GPIO Ports Number": "30",
+        "ADC (Units/Channels/bits)": "1@x4ch/12bit",
+        "DAC (Units/Channels/bits)": "-",
+        "(E)PWM (Units/Channels/bits)": "-",
+        "8Bit Timer Number": "-",
+        "16Bit Timer Number": "-",
+        "32Bit Timer Number": "-",
+        "CMP Number": "-",
+        "U(S)ART Number": "2",
+        "I2C Number": "2",
+        "I2S Number": "-",
+        "(Q)SPI Number": "2",
+        "CAN Number": "-",
+        "USB (H/D/OTG)": "USB Host/Device",
+        "Peripherals / Functions / Protocol Stacks": "DMA；PWM",
+        "Operating Temperature Range": "-",
+        "Name": "={Manufacturer Part}",
+        "Description": "CPU Core:ARM Cortex-M0 Maximum Frequency:133MHz Supply Voltage Range:- Supply Voltage Range:- Internal Oscillator:- External Clock Frequency Rang:- External Clock Frequency Rang:- Program FLASH Size:- RAM Size:264KB EEPROM/Data FLASH Size:- GPIO Ports Num"
+      },
+      "description": "CPU Core:ARM Cortex-M0 Maximum Frequency:133MHz Supply Voltage Range:- Supply Voltage Range:- Internal Oscillator:- External Clock Frequency Rang:- External Clock Frequency Rang:- Program FLASH Size:- RAM Size:264KB EEPROM/Data FLASH Size:- GPIO Ports Num",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20221227/00D710CA5285FF8A3CE328E50A6254C3.jpg",
+      "source": "88b1c95c0db24581afa4abe322d74d5d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665258057",
+      "custom_tags": "[\"Single Chip Microcomputer/Microcontroller\",\"Microcontroller Units (MCUs/MPUs/SOCs)\"]"
+    },
+    "7494badbd183489890aa21c36b0677a0": {
+      "title": "TYPE-C-31-M-12",
+      "attributes": {
+        "LCSC Part Name": "TYPE-C-31-M-12",
+        "Supplier Part": "C165948",
+        "Manufacturer": "韩国韩荣",
+        "Manufacturer Part": "TYPE-C-31-M-12",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210111/C2682493_D8CCFED08835E878D16ACCF4460E43B8.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "74ebfb2dc70a40e0aab361f23dc0e7c0",
+        "Designator": "USBC?",
+        "Footprint": "a1692aff22f74fb49e0219c8a8f5c398",
+        "3D Model": "d4850b6bcfb24c8f8ccb21298ff9a0df",
+        "3D Model Title": "USB-C_SMD-TYPE-C-31-M-12",
+        "3D Model Transform": "351.9678,311.023,0,180,0,0,0,-44.648,-39.37",
+        "Connector Type": "Type-C",
+        "Standard": "-",
+        "Gender": "Female",
+        "Number of Contacts": "16",
+        "Number of Ports": "1",
+        "Current Rating - Power (Max)": "250mA",
+        "Name": "={Manufacturer Part}",
+        "Description": "Connector Type:Type-C Standard:- Gender:Female Number of Contacts:16 Number of Ports:1 Current Rating - Power (Max):250mA"
+      },
+      "description": "Connector Type:Type-C Standard:- Gender:Female Number of Contacts:16 Number of Ports:1 Current Rating - Power (Max):250mA",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/C178AB663E076A481C2DF54CAFE001AA.jpg",
+      "source": "730e76758f9742ca9ca85c73f4ec0ecd|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665258038",
+      "custom_tags": "[\"Connectors\",\"USB Connectors\"]"
+    },
+    "c482b0f3d0804cf2ab594b4d16374ec5": {
+      "title": "AMS1117-3.3",
+      "attributes": {
+        "LCSC Part Name": "AMS1117-3.3",
+        "Supplier Part": "C2992570",
+        "Manufacturer": "国芯佳品",
+        "Manufacturer Part": "AMS1117-3.3",
+        "Supplier Footprint": "SOT-223-3",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220729/0D21C21EC310E4778671BF6BAE438640.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "e389b9f183324e6782ad1754f8569e86",
+        "Designator": "U?",
+        "Footprint": "9c1778cb08454003bd72b2c9b0296145",
+        "3D Model": "22dd8b4d6265415dac64c9ea687d1038",
+        "3D Model Title": "SOT-223-3_L6.4-W3.5-P2.30-LS7.0-BR",
+        "3D Model Transform": "251.968,275.59,0,90,0,0,-3.937,0,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20220915/3C6F1EB1665459470651607D0947884F.jpg",
+      "source": "72f2d2bc1be8488dbc0a2f9c0101c49a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663252822",
+      "custom_tags": "[\"Power Supply Chip\",\"Linear Voltage Regulators (LDO)\"]"
+    },
+    "d28497ce223b49cca2e1d0bfef34d0dd": {
+      "title": "RC0402FR-075K1L",
+      "attributes": {
+        "LCSC Part Name": "5.1kΩ ±1% 62.5mW",
+        "Supplier Part": "C105872",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "RC0402FR-075K1L",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170912/C105872_1505207464555963229.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f0d9a0d556784a1b84cc2f3434cbd804",
+        "Designator": "R?",
+        "Footprint": "32f8a69a163e4935b927f0c88cfb5691",
+        "3D Model": "7acafb63c3554c8d9104b33a82f3b578",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Value": "5.1kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+      },
+      "description": "Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/F39496278642BA3896E5632506DC1DBF.jpg",
+      "source": "10a7836f15ff4f9d926b2ce2878a22a7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664568335",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "ba11a380325142ae96bad62993ae341a": {
+      "title": "CL05A106MQ5NUNC",
+      "attributes": {
+        "LCSC Part Name": "10uF ±20% 6.3V",
+        "Supplier Part": "C15525",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL05A106MQ5NUNC",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "714a475e4b5c488ea505753912975f02",
+        "Designator": "C?",
+        "Footprint": "91a38cc4e68d4a51be348ff39a18b318",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "10uF",
+        "Tolerance": "±20%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Description": "Capacitance: Tolerance:±20% Tolerance:±20% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±20% Tolerance:±20% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20221228/59756304DE325E9DAEFEEA30447B0107.jpg",
+      "source": "6431c53286644d1eafe811d47f4b0f20|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663790428",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "e0ede2f375d248b0a4430c347afb8bb8": {
+      "title": "Power-5V",
+      "attributes": {
+        "Symbol": "a2569eeeac684f82a88556c66ef9737a",
+        "Global Net Name": "+5V",
+        "Footprint": ""
+      },
+      "description": "Power-5V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "b07959542b3b48a1a4118cf5708700b6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664349332",
+      "custom_tags": "[]"
+    },
+    "6f827d6f2514462da493a64fb1027831": {
+      "title": "Power-VCC",
+      "attributes": {
+        "Symbol": "68c69b8a877e4ee08ffbf4490d54c26f",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "7737efc32ff44ecb8cf68152f3fbd014|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575525",
+      "custom_tags": "[]"
+    },
+    "146d67cc877f4613a53b3da137cd27a7": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "e5ae14b7370448c2a3b91a1e1470c72a",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "17cc0a1f1ecb48c2b71b2b396de14afc": {
+      "title": "0402WGF5101TCE",
+      "attributes": {
+        "LCSC Part Name": "5.1KΩ(5101) ±1% 编带",
+        "Supplier Part": "C25905",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0402WGF5101TCE",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25905_1505895107382980911.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5c7a809d912348c4ae46ad3b8b236444",
+        "Designator": "R?",
+        "Footprint": "32f8a69a163e4935b927f0c88cfb5691",
+        "3D Model": "7acafb63c3554c8d9104b33a82f3b578",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/18AC975FDCB0429DA214209ACC8C399D.jpg",
+      "source": "3614094eae9e47dbbbde1f877b2c30ef|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665086418",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "a3ca81cefd1a49b395439187150442a2": {
+      "title": "W25Q128JVSIQ",
+      "attributes": {
+        "LCSC Part Name": "W25Q128JVSIQ",
+        "Supplier Part": "C97521",
+        "Manufacturer": "WINBOND(华邦)",
+        "Manufacturer Part": "W25Q128JVSIQ",
+        "Supplier Footprint": "SOIC-8-208mil",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170316/1489627409956.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "b5995e4c94cf4a42b01079b021ee1b62",
+        "Designator": "U?",
+        "Footprint": "2268733b0271402d8efd83d3994ce5c2",
+        "3D Model": "7b3104f4a302484e875593c5ba7bd3db",
+        "3D Model Title": "SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27",
+        "3D Model Transform": "208.661,311.25654,0,0,0,0,-0.0005,0.0005,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/AAA51CE5EBA590F951BED31769E12BAC.jpg",
+      "source": "186ba0074f284af0924bbcb475a8676a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664998813",
+      "custom_tags": "[\"Memory\",\"NOR FLASH\"]"
+    },
+    "6a0e5425d5df4dccaf95914c6fa7ac64": {
+      "title": "O7050125MEDA4SC",
+      "attributes": {
+        "LCSC Part Name": "125MHz ±20ppm 3.3V",
+        "Supplier Part": "C70626",
+        "Manufacturer": "YXC(扬兴晶振)",
+        "Manufacturer Part": "O7050125MEDA4SC",
+        "Supplier Footprint": "SMD7050-4P",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20161110/1478747570108.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "235dd551dd8d4792b3d6073dc5c33e88",
+        "Designator": "X?",
+        "Footprint": "1a46e211f5a94b0d9f7f8319bf19b8d4",
+        "3D Model": "e523e6a394884ca59dfc2b2d3346f78a",
+        "3D Model Title": "OSC-SMD_4P-L7.0-W5.0-H1.3",
+        "3D Model Transform": "275.59,196.85,0,0,0,0,0,0,0",
+        "Value": "125MHz",
+        "Frequency Stability": "±20ppm",
+        "Supply Voltage": "3.3V~3.3V",
+        "Supply Current (Max)": "60mA",
+        "Operating Temperature": "-20℃~+70℃",
+        "Name": "={Value}",
+        "Description": "Frequency:125MHz Frequency Stability:±20ppm Frequency Stability:±20ppm Supply Voltage:3.3V~3.3V Supply Voltage:3.3V~3.3V Supply Current (Max):60mA Operating Temperature:-20℃~+70℃ Operating Temperature:-20℃~+70℃"
+      },
+      "description": "Frequency:125MHz Frequency Stability:±20ppm Frequency Stability:±20ppm Supply Voltage:3.3V~3.3V Supply Voltage:3.3V~3.3V Supply Current (Max):60mA Operating Temperature:-20℃~+70℃ Operating Temperature:-20℃~+70℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20190609/83AA4F353C1A12F6FF9E9F82704F8510.jpg",
+      "source": "bea01e8686274dbeb6cfa14a3ee31e7c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660157792",
+      "custom_tags": "[\"Crystal Oscillator/Oscillator/Resonator\",\"Oscillators\"]"
+    },
+    "46cc1c927d5e45edbc6d7dc0adc87ada": {
+      "title": "O705012MEDA4SC",
+      "attributes": {
+        "Designator": "X?",
+        "Symbol": "3d57cb300da443b6936dbe72d0d9bb39",
+        "Supplier": "LCSC",
+        "Manufacturer": "YXC(扬兴晶振)",
+        "Manufacturer Part": "O705012MEDA4SC",
+        "Supplier Part": "C15918",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "O705012MEDA4SC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "3f83ce4cbab88142380c841b75afe01a|95d8b80acd6cc826c8858fe20c11015e53c019b26738c3c499cc1cf9b094c912",
+      "version": "0bcd23879a8c4e9dfb919cd42672eeb5",
+      "custom_tags": ""
+    },
+    "b0705f91098c4513af101edd6c285699": {
+      "title": "0402WGF2702TCE",
+      "attributes": {
+        "LCSC Part Name": "27KΩ(2702) ±1% 编带",
+        "Supplier Part": "C25771",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0402WGF2702TCE",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25771_1505901535770983346.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "3bdb54f845234be2b916e6693406d279",
+        "Designator": "R?",
+        "Footprint": "32f8a69a163e4935b927f0c88cfb5691",
+        "3D Model": "7acafb63c3554c8d9104b33a82f3b578",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/18524831B8CD40B84C999BF0161F32C1.jpg",
+      "source": "98ca3f305f004d29b9e0182010cc35dc|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665171614",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "a080815053c2456a972d9992c2692b5d": {
+      "title": "0402CG300J500NT",
+      "attributes": {
+        "LCSC Part Name": "30pF ±5% 50V",
+        "Supplier Part": "C1570",
+        "Manufacturer": "FH(风华)",
+        "Manufacturer Part": "0402CG300J500NT",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170923/C1570_1506149275948988377.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "62f54d7f04a243f1b0009f02b3349d36",
+        "Designator": "C?",
+        "Footprint": "91a38cc4e68d4a51be348ff39a18b318",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "30pF",
+        "Tolerance": "±5%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Description": "Capacitance: Tolerance:±5% Tolerance:±5% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±5% Tolerance:±5% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20200717/7AE085C3A23B5320EECE3EB45DD41978.jpg",
+      "source": "1a51df42a46b442fba409036bf1549fe|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665258027",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "388f424c76ad444abe99a3d7744c4008": {
+      "title": "CL05A105KA5NQNC",
+      "attributes": {
+        "LCSC Part Name": "1uF ±10% 25V",
+        "Supplier Part": "C52923",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL05A105KA5NQNC",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707735223.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "b1123e8d01094773bf393423f466f537",
+        "Designator": "C?",
+        "Footprint": "91a38cc4e68d4a51be348ff39a18b318",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "1uF",
+        "Tolerance": "±10%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20190222/840F09808FD7984433A8AA3FDAB2542B.jpg",
+      "source": "115c3169541a48b3ba9c88523dfbcdee|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663702815",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "bcbf87a53ca849e28e41dc9c13b82842": {
+      "title": "CL05B104KO5NNNC",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 16V",
+        "Supplier Part": "C1525",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL05B104KO5NNNC",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707674891.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "11b042507a9141f28fd7e50ef2de6b65",
+        "Designator": "C?",
+        "Footprint": "6892d3583fe242ea9148d5120571e59e",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/25171964EBE71C56341BC7637C0127D5.jpg",
+      "source": "2eaf9ba597d94b93917d2b625402739a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664913618",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "a6d4827ddcce4af0a29a2a28f433a7b6": {
+      "title": "0402WGF1001TCE",
+      "attributes": {
+        "LCSC Part Name": "1kΩ ±1% 62.5mW",
+        "Supplier Part": "C11702",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0402WGF1001TCE",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "28dd023ac22741dc8f98d5247c2233b9",
+        "Designator": "R?",
+        "Footprint": "32f8a69a163e4935b927f0c88cfb5691",
+        "3D Model": "7acafb63c3554c8d9104b33a82f3b578",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Type": "Thick Film Resistors",
+        "Value": "1kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20221228/78C31533407C718A29D2899498F303E9.jpg",
+      "source": "17aa4e57569d4d22adc28d945ba5559d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1662493219",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "22b2f4e17b714948a5763226e5308f41": {
+      "title": "0402WGF3300TCE",
+      "attributes": {
+        "LCSC Part Name": "330Ω ±1%",
+        "Supplier Part": "C25104",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0402WGF3300TCE",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25104_1505901212369982735.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "e4c569ac8d6240cd81f06dfe482a8351",
+        "Designator": "R?",
+        "Footprint": "32f8a69a163e4935b927f0c88cfb5691",
+        "3D Model": "7acafb63c3554c8d9104b33a82f3b578",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Value": "330Ω",
+        "Tolerance": "",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "",
+        "Name": "={Value}",
+        "Description": "Resistance: Tolerance: Power(Watts): Temperature Coefficient: Temperature Coefficient: Overload Voltage (Max): Operating Temperature Range: Operating Temperature Range:"
+      },
+      "description": "Resistance: Tolerance: Power(Watts): Temperature Coefficient: Temperature Coefficient: Overload Voltage (Max): Operating Temperature Range: Operating Temperature Range:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/48A83E06DE09400682F2C372F365CE01.jpg",
+      "source": "ad17ef9151aa437db942e9d530bb438c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663875635",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "65d1a448be3b4e4dba8fb5581eab16a6": {
+      "title": "19-217/GHC-YR1S2/3T",
+      "attributes": {
+        "LCSC Part Name": "翠绿 520nm~535nm",
+        "Supplier Part": "C72043",
+        "Manufacturer": "EVERLIGHT(亿光)",
+        "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20160507/1462613613780.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d09200e3129d4b6abb56d995add53858",
+        "Designator": "LED?",
+        "Footprint": "b286747c21f945388789b04fb0569f21",
+        "3D Model": "eca76de2c48042b48052f5876bb6c831",
+        "3D Model Title": "LED0603-R-RD",
+        "3D Model Transform": "63.7794,31.496,0,0,0,0,0,0,0",
+        "Emitted Color": "Emerald",
+        "Diode Configuration": "-",
+        "Lens Color": "Colorless transparence",
+        "Dominant Wavelength": "520nm~535nm",
+        "Peak Wavelength": "518nm",
+        "Color Temperature": "-",
+        "Forward Current": "20mA",
+        "Power Dissipation": "110mW",
+        "Viewing Angle": "120°",
+        "Mounting Sytle": "-",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Emitted Color:Emerald Diode Configuration:- Lens Color:Colorless transparence Dominant Wavelength:520nm~535nm Dominant Wavelength:520nm~535nm Peak Wavelength:518nm Color Temperature:- Color Temperature:- Forward Current:20mA Power Dissipation:110mW Viewin"
+      },
+      "description": "Emitted Color:Emerald Diode Configuration:- Lens Color:Colorless transparence Dominant Wavelength:520nm~535nm Dominant Wavelength:520nm~535nm Peak Wavelength:518nm Color Temperature:- Color Temperature:- Forward Current:20mA Power Dissipation:110mW Viewin",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20221230/A69233F2F8FC6AACF9FD60933715B5CE.jpg",
+      "source": "f210a0374a424c978f0724f70e945fb6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665258020",
+      "custom_tags": "[\"Optocoupler/LED/Digital Tube/Photoelectric Device\",\"Light Emitting Diodes (LED)\"]"
+    },
+    "ef6016c102844357b1a826c2be1fec0e": {
+      "title": "TS-1187A-B-A-B",
+      "attributes": {
+        "LCSC Part Name": "5.1*5.1*1.5 防水金属头160gf",
+        "Supplier Part": "C318884",
+        "Manufacturer": "XKB Connectivity(中国星坤)",
+        "Manufacturer Part": "TS-1187A-B-A-B",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200227/C318884_1F20165719E1C4CAA3E10C4C359C6E26.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "494b48cfc3164be2a63c7d8cb7e878dc",
+        "Designator": "SW?",
+        "Footprint": "422d6f654c734353b1c60893f9f6aa04",
+        "3D Model": "1a2f14aa815d4cbfa01abf5e696c4402",
+        "3D Model Title": "SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70",
+        "3D Model Transform": "251.968,204.724,0,0,0,0,0,-0.001,0",
+        "Contact Current": "50mA",
+        "Voltage Rating (DC)": "12V",
+        "Insulation Resistance": "-",
+        "Circuit": "SPST",
+        "Mounting Style": "Brick nogging",
+        "Actuator Style": "Round Button",
+        "Actuator/Cap Color": "金色",
+        "With Lamp": "No",
+        "Operating Force": "160gf",
+        "Mechanical Life": "100000",
+        "Operating Temperature": "-30℃~+85℃",
+        "Switch Length": "5.1mm",
+        "Switch Width": "5.1mm",
+        "Switch Height": "1.5mm",
+        "Strike Gundam": "NO",
+        "Name": "={Manufacturer Part}",
+        "Description": "Contact Current:50mA Voltage Rating (DC):12V Insulation Resistance:- Circuit:SPST Mounting Style:Brick nogging Actuator Style:Round Button Actuator/Cap Color:金色 With Lamp:No Operating Force:160gf Mechanical Life:100000 Operating Temperature:-30℃~+85℃ Oper"
+      },
+      "description": "Contact Current:50mA Voltage Rating (DC):12V Insulation Resistance:- Circuit:SPST Mounting Style:Brick nogging Actuator Style:Round Button Actuator/Cap Color:金色 With Lamp:No Operating Force:160gf Mechanical Life:100000 Operating Temperature:-30℃~+85℃ Oper",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/88172F1E1FCBE40FF10527789D18E309.jpg",
+      "source": "38630614a58f4650bd5eefe9a5f79d9a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661719315",
+      "custom_tags": "[\"Key/Switch\",\"Tactile Switches\"]"
+    },
+    "c2a74b134eb44162aecbb2aeac30bb25": {
+      "title": "Netport-IN",
+      "attributes": {
+        "Symbol": "abf41c85e16f4054a2938d9447a356fa",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "1e49409bec974672828f01a773e33450|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575456",
+      "custom_tags": "[]"
+    },
+    "04bc5c8360c4483990a8ffe9eb96a693": {
+      "title": "0603WAF270JT5E",
+      "attributes": {
+        "LCSC Part Name": "27Ω ±1% 100mW",
+        "Supplier Part": "C25190",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0603WAF270JT5E",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d8642cf864fe413c97785454cf302d87",
+        "Designator": "R?",
+        "Footprint": "c9127e59e4c7496a8b0e9a524e3bf9ee",
+        "3D Model": "6bd5cd867e9542ebae21caaf5d2d4c4d",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "27Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "±200ppm/℃",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20221229/B3273BD102B3222B3ABFDA624A472272.jpg",
+      "source": "7fc448d7154a41829081433201b95292|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664481300",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "439c953ee23c4d79aad34fb5806850d7": {
+      "title": "Res_0603",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "R?",
+        "Supplier Footprint": "0603",
+        "Symbol": "eab66376e9d748ac81c18985e34926a8",
+        "Footprint": "c9127e59e4c7496a8b0e9a524e3bf9ee",
+        "3D Model": "6bd5cd867e9542ebae21caaf5d2d4c4d",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "10K",
+        "Name": "={Value}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "77e4e58c188a4330a8ecb535773aacb1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1655970956",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "46c566f5baaa4ab881bcb0010f092b42": {
+      "title": "Res_0402",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "R?",
+        "Supplier Footprint": "0402",
+        "Symbol": "871d3ae587264874bed2f8f645699b33",
+        "Footprint": "48726249d224467b9568e35a8a7319b7",
+        "3D Model": "7acafb63c3554c8d9104b33a82f3b578",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Value": "10K",
+        "Name": "={Value}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "fa33e67e9c3d4bc1a10ab1cb7fa4a40d|74c3fce35b813c4911be37f54b2e2b00acbb7a996385fbfaf43b3fa5921636c6",
+      "version": "1655971014",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "54b16f0a2c3a41b29c3ce6ea202f6769": {
+      "title": "12MHz",
+      "attributes": {
+        "Footprint": "bd1b3a793cb74b8993944cba12c24200",
+        "Designator": "X?",
+        "link": "https://item.szlcsc.com/343131.html",
+        "3DModel": "OSC-SMD_4P-L7.0-W5.0-H1.3",
+        "Supplier": "LCSC",
+        "Manufacturer": "YXC(扬兴晶振)",
+        "Manufacturer Part": "O705012MEDA4SC",
+        "Supplier Part": "C15918",
+        "JLCPCB Part Class": "Extended Part",
+        "Symbol": "1369d44080a34ab6a9d06c8340dcf5fe",
+        "Name": "12MHz",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "8769aaa75e8b95a4bcfb3cd1f2239524|259ca779b8fbcf3df1baad030035b20d5f392b3fe690708c0d1e6b3aeedb6d01",
+      "version": "a496dafd3518d14d826d3aca9ca6b942",
+      "custom_tags": ""
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "0e70015f78ed49ca8f1458dc8ce63022",
+      "pcb": "f4dac1bcc2c14e68a62fbc35c23eb1da"
+    }
+  },
+  "config": {
+    "title": "rp2040clone",
+    "cbbProject": 0,
+    "defaultSheet": "",
+    "editorVersion": "1.9.29.eba1c1"
+  }
+}

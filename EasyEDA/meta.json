@@ -1,0 +1,20 @@
+{
+  "name": "Auto Backup",
+  "description": "",
+  "projectName": "rp2040clone",
+  "owner": {
+    "uuid": "9697f125f75e43888a3976bfbe90d6ac",
+    "username": null,
+    "nickname": null,
+    "avatar": null
+  },
+  "members": [
+    {
+      "uuid": "9697f125f75e43888a3976bfbe90d6ac",
+      "username": "",
+      "nickname": "",
+      "avatar": ""
+    }
+  ],
+  "backupTime": "2023-02-19 01:33:13"
+}
